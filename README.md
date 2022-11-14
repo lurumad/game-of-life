@@ -1,4 +1,4 @@
-# Overview
+# Overview
 
 This repository contains my solution for Conway's Game of Life that I developed after attending the [Gloabl Day of Coderetreat in Madrid](https://www.eventbrite.co.uk/e/entradas-global-day-of-coderetreat-madrid-431835300007) in Python 
 
