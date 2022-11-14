@@ -2,6 +2,33 @@
 
 This repository contains my solution for Conway's Game of Life that I developed after attending the [Gloabl Day of Coderetreat in Madrid](https://www.eventbrite.co.uk/e/entradas-global-day-of-coderetreat-madrid-431835300007) in Python 
 
+Install dependencies
+
+```bash
+poetry install
+```
+
+Run tests:
+
+```bash
+poetry run pytest
+```
+
+Run test watch:
+
+```bash
+poetry run ptw
+```
+
+Run the game:
+
+```bash
+poetry run game
+```
+
+![image](https://user-images.githubusercontent.com/1729519/201720625-e4cf2c5a-0131-4c89-864c-912060f05ce7.png)
+
+
 # Game of Life Kata
 
 This Kata is about calculating the next generation of Conway’s Game of Life, given any starting state.
