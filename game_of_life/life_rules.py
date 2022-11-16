@@ -12,7 +12,7 @@ class LifeRules:
         number_of_alive_neighbours = board.number_of_alive_neighbours(cell)
         
         if cell.alive() and number_of_alive_neighbours in [2,3]:
-            return AliveCell(cell.position())
+            return cell
 
         if not cell.alive() and number_of_alive_neighbours == 3:
             return AliveCell(cell.position())
